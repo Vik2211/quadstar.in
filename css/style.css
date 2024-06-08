@@ -1,0 +1,350 @@
+.navbar-nav .nav-item .nav-link {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+
+/*----------------footer--------------*/
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#FFD580;
+  padding: 10px 8px;
+  width: 100%;
+}
+
+.foot {
+  flex: 1;
+  text-align: left;
+  color: rgb(204, 23, 168);
+  font-size: 13px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(10, 10, 11);
+}
+
+@media (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .foot {
+    flex: 1;
+    text-align: center;
+    margin: 2px;
+    font-size: 10px;
+  }
+}
+
+.right-foot {
+  text-align: right;
+}
+
+/*------image slider--------*/
+.image_slider {
+  margin-top: 130px;
+}
+
+/*------social icons------*/
+.social-links {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+/* Custom CSS for the social media icons */
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #b62c8c;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.bg-saparan {
+  background-color: #caa445;
+}
+
+/* Apply background color on hover */
+.social-icon:hover {
+  background-color: #caa445;
+  color: #b62c8c;
+}
+
+/*------model-------*/
+.con {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #a3126b;
+  margin-top: 40px;
+}
+
+.card {
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 2px 2px #d0d2d5;
+}
+
+/*-----nav items------*/
+.navbar-nav .nav-item:hover .nav-link {
+  color: #a3126b;
+}
+
+/*---------------chat------*/
+.chat-button {
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #cea11a;
+  font-size: 30px;
+}
+
+.chat-button .fa {
+  color: #7d0feb;
+  font-size: 30px;
+  pointer-events: none;
+}
+
+.chat-button .tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -40px;
+  left: -30px;
+  background-color: #cabd2c;
+  color: #c12394;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+}
+
+.chat-button:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 767px) {
+  .chat-button {
+    bottom: 20px;
+  }
+
+  .chat-button {
+    right: 20px;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+}
+
+/*---------contact----------*/
+#contact-col div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+#contact-col div .fa {
+  font-size: 28px;
+  color: #a3126b;
+  margin: 10px;
+  margin-right: 30px;
+}
+
+#contact-col div .fab {
+  font-size: 28px;
+  color: #a3126b;
+  margin: 10px;
+  margin-right: 30px;
+}
+
+#contact-col div p {
+  padding: 0;
+  color: black;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+#contact-col div h5 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: black;
+  font-weight: 400;
+}
+
+.map-container {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 38.25%;
+  height: 0;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*---------ourpatners-------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+  background: blanchedalmond;
+}
+
+.container3 {
+  padding-top: 150px;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.slick-slide {
+  margin: 0 20px;
+}
+
+.slick-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 100px;
+  /* Set a maximum height for uniformity */
+}
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+.slick-initialized .slick-slide {
+  display: block;
+}
+
+.copy {
+  padding-top: 250px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .container3 {
+    padding-top: 100px;
+  }
+
+  .slick-slide {
+    margin: 0 10px;
+  }
+
+  .copy {
+    padding-top: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container3 {
+    padding-top: 50px;
+  }
+
+  .slick-slide {
+    margin: 0 5px;
+  }
+
+  .copy {
+    padding-top: 100px;
+  }
+}
+
+/*---------careers form--------*/
+.form-row {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(165, 110, 110, 0.3);
+  box-sizing: border-box;
+  text-align: left;
+}
+
+#sub_btn {
+  padding: 15px;
+  color: #fff;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 400;
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 50%;
+  background-color: rgba(73, 12, 225, 0.8);
+}
+
+#sub_btn:hover {
+  border: 1px solid lightblue;
+  background: rgb(181, 33, 97);
+  color: #fff;
+  transition: 1s;
+}
+
+#con_btn {
+  background-color: rgb(228, 146, 52);
+  color: black;
+}
+
+@media (max-width: 767px) {
+ 
+}

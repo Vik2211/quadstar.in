@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Partners</title>
+    <link rel="stylesheet" href="../../cdn.jsdelivr.net/npm/bootstrap%404.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../../cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center font-weight-bold">Our Channel Partners</h2>
+        <section class="customer-logos slider">
+            <div class="slide"><img src="../images/hettich.jpg" alt="hettich"></div>
+            <div class="slide"><img src="../images/ebco.jpg" alt="ebco"></div>
+            <div class="slide"><img src="../images/royal.png" alt="royal"></div>
+            <div class="slide"><img src="../images/greenply.jpg" alt=""></div>
+            <div class="slide"><img src="../images/brandlanding-1.jpg" alt=""></div>
+            <div class="slide"><img src="../images/century-laminates-logo-d.png" alt=""></div>
+            <div class="slide"><img src="../images/havells.jpg" alt=""></div>
+            <div class="slide"><img src="../images/anchor.jpg" alt=""></div>
+            <div class="slide"><img src="../images/philips.jpg" alt=""></div>
+            <div class="slide"><img src="../images/tesa.png" alt=""></div>
+            <div class="slide"><img src="../images/livguard.png" alt=""></div>
+            <div class="slide"><img src="../images/kohler.png" alt=""></div>
+            <div class="slide"><img src="../images/jaquar.avif" alt=""></div>
+            <div class="slide"><img src="../images/bluestar.jpg" alt=""></div>
+            <div class="slide"><img src="../images/voltas.jpg" alt=""></div>
+            <div class="slide"><img src="../images/American_Standard.webp" alt=""></div>
+            <div class="slide"><img src="../images/cera.jpg" alt=""></div>
+        </section>
+    </div>
+
+<script>
+
+$(document).ready(function(){
+        $('.customer-logos').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 500,
+            arrows: false,
+            dots: false,
+            pauseOnHover:false,
+            responsive: [{
+                breakpoint: 768,
+                setting: {
+                    slidesToShow:4
+                }
+            }, {
+                breakpoint: 520,
+                setting: {
+                    slidesToShow: 3
+                }
+            }]
+        });
+    });
+
+    </script>
+
+</body>
+
+</html>
